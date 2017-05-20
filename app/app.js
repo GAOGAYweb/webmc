@@ -5,7 +5,7 @@ const createEngine = require('voxel-engine-stackgl');
 const main = function() {
   console.log('starting up');
   createEngine({pluginLoaders: {
-    'voxel-clientmc': require('../'),
+    //'voxel-clientmc': require('../'),
     'voxel-registry': require('voxel-registry'),
     'voxel-artpacks': require('voxel-artpacks'),
     'voxel-wireframe': require('voxel-wireframe'),
@@ -48,6 +48,7 @@ const main = function() {
     'voxel-plugins-ui': require('voxel-plugins-ui'),
     'voxel-keys': require('voxel-keys'),
     'kb-bindings-ui': require('kb-bindings-ui'),
+      './blocks.js': require('./blocks.js'),
     'camera-debug': require('camera-debug')
   }, exposeGlobal:true, pluginOpts:{
     'voxel-engine-stackgl': {
@@ -100,7 +101,7 @@ const main = function() {
     'voxel-registry': {},
     'voxel-artpacks': {},
     'voxel-stitch': {
-      artpacks: ['https://dl.dropboxusercontent.com/u/258156216/artpacks/ProgrammerArt-v2.2.2-dev-ResourcePack-20140521.zip']
+      artpacks: ['ProgrammerArt-ResourcePack.zip']
     },
     'voxel-shader': {
       cameraFOV: 90.0
@@ -120,11 +121,11 @@ const main = function() {
 
     'voxel-decorative': {},
     //'voxel-land': {registerBlocks: false},
-    'voxel-flatland': {block: 'missing'},
+    'voxel-flatland': {block: 'grass'},
     'voxel-bedrock': {},
     'voxel-inventory-creative': {},
-    'voxel-clientmc': {},
-
+    //'voxel-clientmc': {},
+      './blocks.js': {}, // misc inanimate opaque solid blocks
     'voxel-console': {},
     'voxel-commands': {},
     'voxel-drop': {},
