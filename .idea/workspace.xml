@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a74a8c5-7617-478f-97c9-c3fe309f8523" name="Default" comment="" />
+    <list default="true" id="3a74a8c5-7617-478f-97c9-c3fe309f8523" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -153,7 +155,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/node_modules/voxel-flatland/flatland.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/clientmc.js" />
@@ -161,6 +162,7 @@
         <option value="$PROJECT_DIR$/blocks.js" />
         <option value="$PROJECT_DIR$/node_modules/wsmc/package.json" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -239,7 +241,7 @@
     <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/app/node_modules/voxel-flatland/flatland.js" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/app/node_modules/voxel-flatland/flatland.js&#10;E:/voxel/voxel-clientmc/.gitignore" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -371,7 +373,7 @@
       <option name="presentableId" value="Default" />
       <updated>1495266972106</updated>
       <workItem from="1495266973810" duration="2324000" />
-      <workItem from="1495269400634" duration="9698000" />
+      <workItem from="1495269400634" duration="9749000" />
     </task>
     <task id="LOCAL-00001" summary="save">
       <created>1495292353317</created>
@@ -384,10 +386,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12022000" />
+    <option name="totallyTimeSpent" value="12073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
