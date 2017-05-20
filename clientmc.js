@@ -1,9 +1,9 @@
 'use strict';
 
-const websocket_stream = require('websocket-stream');
-const webworkify = require('webworkify');
-const workerstream = require('workerstream');
-const typedArrayToBuffer = require('typedarray-to-buffer');
+// const websocket_stream = require('websocket-stream');
+// const webworkify = require('webworkify');
+// const workerstream = require('workerstream');
+// const typedArrayToBuffer = require('typedarray-to-buffer');
 const mcData = require('./mcdata');
 const EventEmitter = require('events').EventEmitter;
 
@@ -63,6 +63,7 @@ class ClientMC extends EventEmitter
     opts.mcBlocks = opts.mcBlocks || mcData.mcBlockID2Voxel;
 
     // webworker -> main thread handler callbacks (augmented by plugins)
+
     this.handlers = {
       packet: (event) => {
         this.websocketStream.write(typedArrayToBuffer(event.data));
@@ -135,6 +136,7 @@ class ClientMC extends EventEmitter
   }
 
   // TODO: refactor further into modules
+    /*
   connectServer() {
     this.log('voxel-clientmc connecting...');
 
@@ -193,4 +195,5 @@ class ClientMC extends EventEmitter
 
     this.emit('connectServer');
   }
+  */
 }

@@ -48,7 +48,7 @@ const main = function() {
     'voxel-plugins-ui': require('voxel-plugins-ui'),
     'voxel-keys': require('voxel-keys'),
     'kb-bindings-ui': require('kb-bindings-ui'),
-      './blocks.js': require('./blocks.js'),
+    './blocks.js': require('../blocks.js'),
     'camera-debug': require('camera-debug')
   }, exposeGlobal:true, pluginOpts:{
     'voxel-engine-stackgl': {
@@ -124,8 +124,8 @@ const main = function() {
     'voxel-flatland': {block: 'grass'},
     'voxel-bedrock': {},
     'voxel-inventory-creative': {},
-    //'voxel-clientmc': {},
       './blocks.js': {}, // misc inanimate opaque solid blocks
+    //'voxel-clientmc': {},
     'voxel-console': {},
     'voxel-commands': {},
     'voxel-drop': {},
